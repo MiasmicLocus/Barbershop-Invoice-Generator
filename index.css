@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #121010;
+    color: white;
+    text-align: center;
+}
+
+#item-1, 
+#item-2{
+grid-column: 1/2;
+width: 45%;
+}
+
+#item-3, 
+#item-4{
+grid-column: 3/4;
+width: 45%;
+}
+
+#buttons {
+    background: yellowgreen;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#list {
+    color: white;
+}
+
+#items-list {
+    padding: 10px; 
+    list-style-type: none;
+}
